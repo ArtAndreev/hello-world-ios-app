@@ -14,6 +14,7 @@
 		1CC7386422429E820041D26A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CC7386222429E820041D26A /* LaunchScreen.storyboard */; };
 		1CC7386F22429E820041D26A /* ios_task1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC7386E22429E820041D26A /* ios_task1Tests.swift */; };
 		1CC7387A22429E820041D26A /* ios_task1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC7387922429E820041D26A /* ios_task1UITests.swift */; };
+		1CC738882242A10F0041D26A /* GreetingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC738872242A10F0041D26A /* GreetingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		1CC7387522429E820041D26A /* ios-task1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-task1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CC7387922429E820041D26A /* ios_task1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_task1UITests.swift; sourceTree = "<group>"; };
 		1CC7387B22429E820041D26A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CC738872242A10F0041D26A /* GreetingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				1CC7385922429E7E0041D26A /* AppDelegate.swift */,
 				1CC7385B22429E7E0041D26A /* ViewController.swift */,
 				1CC7385D22429E7E0041D26A /* Main.storyboard */,
+				1CC738872242A10F0041D26A /* GreetingsViewController.swift */,
 				1CC7386022429E820041D26A /* Assets.xcassets */,
 				1CC7386222429E820041D26A /* LaunchScreen.storyboard */,
 				1CC7386522429E820041D26A /* Info.plist */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CC7385C22429E7E0041D26A /* ViewController.swift in Sources */,
+				1CC738882242A10F0041D26A /* GreetingsViewController.swift in Sources */,
 				1CC7385A22429E7E0041D26A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
