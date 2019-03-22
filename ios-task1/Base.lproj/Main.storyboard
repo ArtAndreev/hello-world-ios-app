@@ -37,8 +37,8 @@
                                 <rect key="frame" x="151.5" y="423.5" width="72" height="30"/>
                                 <state key="normal" title="Touch me!"/>
                                 <connections>
-                                    <action selector="SayHello:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ch9-K1-hYv"/>
-                                    <segue destination="Dii-sC-rQp" kind="show" identifier="greetings" id="zgi-HF-Ixo"/>
+                                    <action selector="SayHello:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Q7f-Ao-BH0"/>
+                                    <segue destination="Dii-sC-rQp" kind="show" identifier="greetings" id="aqw-ri-KYr"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -83,7 +83,7 @@
         <!--Greetings View Controller-->
         <scene sceneID="E7t-id-WIq">
             <objects>
-                <viewController storyboardIdentifier="greetings" id="Dii-sC-rQp" customClass="GreetingsViewController" customModule="ios_task1" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Dii-sC-rQp" customClass="GreetingsViewController" customModule="ios_task1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3sX-bb-DPa">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

@@ -17,6 +17,8 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
     
+    @IBAction func SayHello(_ sender: Any) {}
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "greetings" {
             if let dest = segue.destination as? GreetingsViewController {
